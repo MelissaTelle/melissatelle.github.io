@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+		/*background-image: url(../images/weddingcalligraphy.jpg);*/
+		background-color: #d5e5f3;
+		font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+		color: #3d5673;
+}
+
+ p, li {
+		color: #657c90;
+}
+
+h1 {
+	font-size: 3em;
+	font-family: 'Amatic SC', cursive;
+	display: inline;
+}
+
+#slogan {
+	font-style: italic;
+}
+
+ul#nav, ul#nav li {
+	display: inline;
+	padding-left: 1em;
+	text-transform: uppercase;
+	font-size: .9em;
+	font-weight: bold;
+}
+
+ul#social, ul#social li {
+	display: inline;
+	padding-left: .3em;
+	margin-top: 1.7em;
+	font-size:1.1em;
+	position:relative;
+
+}
+
+ul#social {
+	 position:absolute;
+            right:0;
+	margin-right: 9em;
+}
+
+div#imagewrapper {
+	width: 100%;
+}
+
+img {
+	width: 27%;
+}
+
+a, ul#social li a:visited, ul#social li a:active {
+	text-decoration: none;
+	color: #657c90;
+}
