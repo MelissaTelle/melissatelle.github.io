@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+footer {
+    padding-bottom:15em;
+}
+
+body {
+		/*background-image: url(../images/weddingcalligraphy.jpg);*/
+		background-color: #f7f9f9;
+		font-family: 'Montserrat', sans-serif;
+		margin: 0px;
+		padding: 0px;
+}
+
+h1 {
+		color: #3d5673;
+}
+
+ p, li {
+		color: #657c90;
+}
+
+h1 {
+	font-size: 3em;
+	font-family: 'Amatic SC', cursive;
+	display: inline;
+}
+
+#slogan {
+	font-style: italic;
+}
+
+ul#nav, ul#nav li {
+	display: inline;
+	padding-left: 1em;
+	text-transform: uppercase;
+	font-size: .9em;
+	font-weight: bold;
+}
+
+ul#social, ul#social li {
+	display: inline;
+	margin: 0;
+	padding-left: .3em;
+	font-size: 1.1em;
+	position: relative;
+
+}
+
+ul#social {
+	margin-top: 1.7em;
+	margin-right: 9em;
+	float: right;
+}
+
+section#imagewrapper {
+	width: 100%;
+	margin-bottom: 1%;
+}
+
+section#footercontact {
+	padding-top: 10em;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: .7em;
+	font-weight: bold;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+img {
+	width: 32%;
+	margin: 0px;
+	margin-right: 1%;
+
+	padding: 0px;
+	border: none;
+}
+
+a, ul#social li a:visited, ul#social li a:active {
+	text-decoration: none;
+	color: #657c90;
+}
+
+footer {
+		background-color: #d5e5f3;
+		padding-bottom:15em;
+}
+
+@media only screen and (max-width: 860px) {
+	#img3 { 
+		display: none; 
+	}
+	img {
+		width: 49%;
+		margin-right: 1%
+	}
+}
+
+
+@media only screen and (max-width: 730px) {
+	ul#social {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	#img2 { 
+		display:none;
+	}
+	img {
+		width: 100%;
+		margin-right: 0%
+	}
+	ul#nav, ul#nav li {
+		display: block;
+		padding: 0px;
+		margin-bottom: 1em;
+		font-size: 1.2em;
+		text-align: center;
+	}
+	h1 {
+		font-size: 3.5em;
+	}
+}
+
